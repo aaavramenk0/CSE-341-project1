@@ -1,5 +1,5 @@
 {
-  "name": "cse-341",
+  "name": "REST-practice",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -7,19 +7,15 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/aaavramenk0/CSE341.git"
-  },
-  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/aaavramenk0/CSE341/issues"
-  },
-  "homepage": "https://github.com/aaavramenk0/CSE341#readme",
   "dependencies": {
-    "express": "^4.18.2",
-    "nodemon": "^2.0.22"
+    "body-parser": "^1.18.3",
+    "dotenv": "^16.0.0",
+    "express": "^4.16.3",
+    "mongodb": "^4.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
   }
 }

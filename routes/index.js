@@ -1,7 +1,6 @@
-const { awesomeFunction } = require('../controllers');
+const express = require('express');
+const router = express.Router();
 
-const routes = require('express').Router();
- 
-routes.get('/', awesomeFunction);
+router.use('/contacts', require('./contacts'))
 
-module.exports = routes;
+module.exports = router;

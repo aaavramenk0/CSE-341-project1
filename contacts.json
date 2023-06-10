@@ -1,0 +1,23 @@
+{
+  "contact1": {
+    "firstName": "Oleksandra",
+    "lastName": "Yakubovska",
+    "email": "oleksandrayakubovska@test.com",
+    "favoriteColor": "Pink",
+    "birthday": "02/25/06"
+  },
+  "contact2": {
+    "firstName": "Alina",
+    "lastName": "Yakubovska",
+    "email": "alinayakubovska@test.com",
+    "favoriteColor": "Black",
+    "birthday": "02/25/06"
+  },
+  "contact3": {
+    "firstName": "Nadiia",
+    "lastName": "Ihnatieva",
+    "email": "nadiiaihnatieva@test.com",
+    "favoriteColor": "Green",
+    "birthday": "03/28/83"
+  }
+}
