@@ -18,57 +18,44 @@ content-type: application/json
 {
     "firstName":"Oleksandr",
     "lastName":"Avramenko",
-    "email":"oleksandr@gmail.com",
+    "email":"oleksandravramenko@gmail.com",
     "favoriteColor":"Red",
     "birthday":"12/17/2004"
 }
 
 ### Update contact
-PUT http://localhost:8080/contacts/6220bcb39cd507e920c75a0b HTTP/1.1
+PUT http://localhost:8080/contacts/6484b1b46a097b83584a5a26 HTTP/1.1
 content-type: application/json
 
 {
     "firstName":"Oleksandra",
-    "lastName":"Yakubovska",
-    "email":"oleksandrayakubovska@test.com",
+    "lastName":"Avramenko",
+    "email":"oleksandraavramenko@test.com",
     "favoriteColor":"Pink",
     "birthday":"02/25/06"
 }
 
 ### DELETE contact
-DELETE http://localhost:8080/contacts/6220b775099269ff7b31ceab HTTP/1.1
+DELETE http://localhost:8080/contacts/648e4c58245d0e89d12b6063 HTTP/1.1
 
 
 
 
 // PRODUCTION Deploy
 ###
-GET https://cse341-tfzt.onrender.com/contacts
+GET https://cse341-ipg5.onrender.com/contacts
 
 ###
-GET https://cse341-tfzt.onrender.com/contacts/id
+GET https://cse341-ipg5.onrender.com/contacts/6484b1b46a097b83584a5a28
 
 ###
-GET https://cse341-tfzt.onrender.com/contacts/id
+GET https://cse341-ipg5.onrender.com/contacts/6484b1b46a097b83584a5a27
 
 ###
-GET https://cse341-tfzt.onrender.com/contacts/id
+GET https://cse341-ipg5.onrender.com/contacts/6484b1b46a097b83584a5a26
 
 ### Create contact
-POST https://cse341-tfzt.onrender.com/contacts HTTP/1.1
-content-type: application/json
-
-{
-    "firstName":"Oleksandra",
-    "lastName":"Yakubovska",
-    "email":"oleksandrayakubovska@test.com",
-    "favoriteColor":"Pink",
-    "birthday":"02/25/06"
-}
-
-
-### Update contact
-PUT https://cse341-tfzt.onrender.com/contacts/id HTTP/1.1
+POST https://cse341-ipg5.onrender.com/contacts HTTP/1.1
 content-type: application/json
 
 {
@@ -80,5 +67,18 @@ content-type: application/json
 }
 
 
+### Update contact
+PUT https://cse341-ipg5.onrender.com/contacts/6484b1b46a097b83584a5a26 HTTP/1.1
+content-type: application/json
+
+{
+    "firstName":"Oleksandra",
+    "lastName":"Yakubovska",
+    "email":"oleksandrayakubovska@test.com",
+    "favoriteColor":"Pink",
+    "birthday":"02/25/06"
+}
+
+
 ### DELETE contact
-DELETE https://cse341-tfzt.onrender.com/contacts/id HTTP/1.1
+DELETE https://cse341-ipg5.onrender.com/contacts/648e4ce3ea930d3460f335da HTTP/1.1
