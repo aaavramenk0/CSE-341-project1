@@ -9,7 +9,7 @@ GET http://localhost:8080/contacts/6484b1b46a097b83584a5a26
 GET http://localhost:8080/contacts/6484b1b46a097b83584a5a27
 
 ###
-GET http://localhost:8080/contacts/6484b1b46a097b83584a5a28
+GET http://localhost:8080/contacts/648f650315d5eda72caf316f
 
 ### Create contact
 POST http://localhost:8080/contacts HTTP/1.1
@@ -36,7 +36,7 @@ content-type: application/json
 }
 
 ### DELETE contact
-DELETE http://localhost:8080/contacts/648e4c58245d0e89d12b6063 HTTP/1.1
+DELETE http://localhost:8080/contacts/648f65a3bdde9d36e5af9783 HTTP/1.1
 
 
 
@@ -46,7 +46,7 @@ DELETE http://localhost:8080/contacts/648e4c58245d0e89d12b6063 HTTP/1.1
 GET https://cse341-ipg5.onrender.com/contacts
 
 ###
-GET https://cse341-ipg5.onrender.com/contacts/6484b1b46a097b83584a5a28
+GET https://cse341-ipg5.onrender.com/contacts/648f650315d5eda72caf316f
 
 ###
 GET https://cse341-ipg5.onrender.com/contacts/6484b1b46a097b83584a5a27
@@ -59,12 +59,12 @@ POST https://cse341-ipg5.onrender.com/contacts HTTP/1.1
 content-type: application/json
 
 {
-    "firstName":"Oleksandr",
-    "lastName":"Avramenko",
-    "email":"oleksandr@gmail.com",
-    "favoriteColor":"Red",
-    "birthday":"12/17/2004"
-}
+    "firstName": "Nadiia",
+    "lastName": "Ihnatieva",
+    "email": "nadiiaihnatieva@test.com",
+    "favoriteColor": "Green",
+    "birthday": "03/28/83"
+  }
 
 
 ### Update contact
